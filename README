@@ -1,0 +1,10 @@
+JS Treeview
+
+Tree widget for quick browsing in many ul lists getting good performance in all browsers.
+Widget remember browse history using localStorage after reload of page. Can be set expiration after some time to clear history.
+See supported browsers with localStorage to get history working on http://caniuse.com/#search=localstorage
+
+No Framework need, no cookies, pure javascript, can make more instances.
+
+Enjoy
+
