@@ -10,11 +10,16 @@
 				color:#000;
 			}
 
+			#tree 				{ padding-top:5px; }
+			#tree ul 			{ background:url('./img/treeview-default-line.gif') 0px 0px no-repeat; padding:0px; margin-left:20px; }
+			#tree ul li 		{ list-style-type:none; position:relative; }
 			#tree ul li.open,
 			#tree ul li.close 	{ cursor:pointer; }
-			#tree ul li.open span.opener 	{ content: '-'; }
-			#tree ul li.close span.opener 	{ content: '+'; }
+			#tree ul li span.opener			{ display:inline-block; width:16px; height:13px; position:relative; }
+			#tree ul li.open span.opener 	{ content: '-'; background:#FFF url('./img/treeview-default.gif') -64px -24px no-repeat; }
+			#tree ul li.close span.opener 	{ content: '+'; background:#FFF url('./img/treeview-default.gif') -80px -1px no-repeat; }
 
+			#tree .TreeSwitchers	{ padding-bottom:10px; }
 			#tree .TreeSwitchers a { display:block; float:left; margin-right:20px; }
 			#tree ul 	{ clear:both; }
 
